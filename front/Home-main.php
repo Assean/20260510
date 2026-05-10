@@ -1,6 +1,6 @@
 <nav>
-            <a href="" class="d-block btn btn-outline-info mx-2 m-2">文章</a>
-            <a href="" class="d-block btn btn-outline-info mx-2 m-2">公告</a>
+            <a href="#" class="d-block btn btn-outline-info mx-2 m-2">文章</a>
+            <a href="#" class="d-block btn btn-outline-info mx-2 m-2">公告</a>
         </nav>
         <section class="articles p-3 rounded my-3" date-btn="articles">
             <h1 class="d-flex justify-content-center mb-4 mt-3">文章列表</h1>
