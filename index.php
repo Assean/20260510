@@ -10,14 +10,14 @@
         <header class="site-header">
             <div class="brand">
                 <a href="" class="brand-link"></a>
-                <nav class="main-nav">
+                <nav class="main-nav justify-content-center">
                     <a href="" class="home-link">首頁</a>
                     <a href="" class="games-link">遊戲</a>
                     <a href="" class="friends-link">好友</a>
                 </nav>
             </div>
             <?php session_start();
-                  if (isset($_SESSION['user'])) {
+                  if (!isset($_SESSION['user'])) {
             ?>
             <div class="site-header user-area">
                 <a href="" class="login-link">登入</a>
