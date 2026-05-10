@@ -7,4 +7,4 @@
             <a href="" class="play-game-link"></a>
         </div>
     </section>
-</div>
+</div>games
