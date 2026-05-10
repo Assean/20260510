@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FunTech</title>
-    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FunTech</title>
+        <link rel="stylesheet" href="./assets/css/bootstrap.css">
+        <script src="assets/js/jquery-3.7.1.min.js"></script>
+        <script src="assets/js/index.js"></script>
 </head>
 <body>
 <?php session_start(); ?>
@@ -31,8 +33,6 @@
         <?php } ?>
     </header>
 </div>
-<script src="assets/js/index.js"></script>
-<script src="assets/js/jquery-3.7.1.min.js"></script>
 <script src="assets/js/bootstrap.js"></script>
 <script>
     loadpage("./front/Home-main.php");
