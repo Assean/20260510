@@ -14,7 +14,9 @@
 <div id="home" class='container'>
     <header class="site-header d-flex p-3 justify-content-between border-bottom">
         <div class="brand" style='border:1px solid #ccc;width:30px;height:30px;background:green'>
-            <a href="" class="brand-link"></a>
+            <a href="./index.php" class="brand-link">
+                <img src="./assets/img/logo.png" alt="FunTech" style='width:100%;height:100%;object-fit:cover'>
+            </a>
         </div>
         <nav class="main-nav">
             <a href="javascript:loadpage('./front/Home-main.php')" class="btn btn-info mx-2 home-link">首頁</a>
