@@ -12,7 +12,7 @@
                 </div>
                 <div class="article-excerpt">有好好的遊戲......</div>
                 <div class='text-right'>
-                    <a href="" class="article-readmore">More</a>
+                    <a href="" class="article-readmore btn btn-outline-primary btn-sm">More</a>
                 </div>
             </article>
             <?php endfor;?>
